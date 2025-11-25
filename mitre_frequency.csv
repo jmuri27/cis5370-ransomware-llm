@@ -1,0 +1,6 @@
+Technique,Count
+T1566 - Phishing,36
+T1190 - Exploit Public-Facing Application,1
+T1218 - File and Directory Discovery,1
+T1059 - Command and Control,1
+T1204 - User Execution: Malware Delivery through Phishing,1

@@ -1,0 +1,1265 @@
+[
+    {
+        "ransomware_family": "Conti",
+        "victim_name": "Capital One",
+        "victim_industry": "Financial Services",
+        "country": "USA",
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing (inferred): true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": "Adobe",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": {
+            "inferred": true
+        },
+        "ransom_amount": null,
+        "data_leak": {
+            "inferred": true
+        },
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Conti",
+        "victim_name": "Uber",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "REvil",
+        "victim_name": "Twitter",
+        "victim_industry": "Technology and Software",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "Uber",
+        "victim_industry": "Transportation",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": "inferred: true (MS17-010)",
+        "initial_access_method": "inferred: true (Phishing or Exploit Kit)",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "eBay",
+        "victim_industry": "E-commerce",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "technique_name": "Phishing",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Google",
+        "victim_industry": "Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Google",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Hive",
+        "victim_name": "Twitter",
+        "victim_industry": "Technology/Internet",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "description": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Google",
+        "victim_industry": "Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "inferred: true (likely phishing)",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Twitter",
+        "victim_industry": "Technology",
+        "country": "United States",
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing",
+        "inferred": true,
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": "Sony",
+        "victim_industry": "Entertainment",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing:inferred=true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": null,
+        "victim_industry": "Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing inferred: true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "Apple",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": {
+            "type": "inferred",
+            "value": "MS17-010"
+        },
+        "initial_access_method": {
+            "type": "inferred",
+            "value": "Exploit of SMB vulnerability"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1190",
+                "technique_name": "Exploit Public-Facing Application",
+                "inferred": true
+            },
+            {
+                "tactic_id": "TA0002",
+                "tactic_name": "Execution",
+                "technique_id": "T1218",
+                "technique_name": "File and Directory Discovery",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Conti",
+        "victim_name": "Capital One",
+        "victim_industry": "Financial Services",
+        "country": "United States",
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing (inferred): true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": "Marriott",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "Google",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": "inferred: true (likely MS17-010)",
+        "initial_access_method": "inferred: true (likely phishing or exploit)",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": "Dropbox",
+        "victim_industry": "Cloud Storage",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Maze",
+        "victim_name": "eBay",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "tactic_id": "TA0001",
+            "tactic_name": "Initial Access",
+            "technique_id": "T1566",
+            "technique_name": "Phishing",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Samsung",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "Dropbox",
+        "victim_industry": "Software as a Service (SaaS)",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "REvil",
+        "victim_name": "Facebook",
+        "victim_industry": "Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Apple",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "technique_name": "Phishing",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": null,
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": {
+            "inferred": true
+        },
+        "MITRE_ATTCK_Techniques": [
+            {
+                "technique_id": "T1566",
+                "tactic_name": "Initial Access",
+                "technique_name": "Phishing",
+                "inferred": false,
+                "tactic_id": "TA0001"
+            }
+        ]
+    },
+    {
+        "ransomware_family": "REvil",
+        "victim_name": "T-Mobile",
+        "victim_industry": "Telecommunications",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "inferred": false,
+                "tactic_id": "TA0001",
+                "technique_id": "T1566",
+                "tactic_name": "Initial Access",
+                "technique_name": "Phishing"
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Hive",
+        "victim_name": "Google",
+        "victim_industry": "Tech",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "Intel",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": {
+            "_inferred": true
+        },
+        "initial_access_method": "Phishing via email (T1566)",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "REvil",
+        "victim_name": null,
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "inferred: true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": "inferred: true"
+    },
+    {
+        "ransomware_family": "Maze",
+        "victim_name": "Facebook",
+        "victim_industry": "Tech/Software",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": "T-Mobile",
+        "victim_industry": "Telecommunications",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "T-Mobile",
+        "victim_industry": "Telecommunications",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1059",
+            "technique_name": "Command and Control"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "tactic_id": "TA0002",
+                "tactic_name": "Execution",
+                "technique_id": "T1059",
+                "technique_name": "Command and Control"
+            }
+        ]
+    },
+    {
+        "ransomware_family": "LockBit",
+        "victim_name": "Uber",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "technique_name": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "REvil",
+        "victim_name": "Capital One",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "tactic_id": "TA0001",
+            "tactic_name": "Initial Access",
+            "technique_id": "T1566",
+            "technique_name": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true
+    },
+    {
+        "ransomware_family": "Maze",
+        "victim_name": "Samsung",
+        "victim_industry": "Electronics/Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "technique_name": "Phishing",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": true
+    },
+    {
+        "ransomware_family": "Hive",
+        "victim_name": "Uber",
+        "victim_industry": "Transportation",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Conti",
+        "victim_name": "Google",
+        "victim_industry": "Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Equifax",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing",
+        "inferred": true,
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "eBay",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": "MS17-010 (EternalBlue)",
+        "initial_access_method": "Network Exploit",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1204",
+                "technique_name": "User Execution: Malware Delivery through Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "T-Mobile",
+        "victim_industry": "Telecommunications",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "Conti",
+        "victim_name": "eBay",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Twitter",
+        "victim_industry": "Technology and Internet",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "technique_name": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Maze",
+        "victim_name": "Apple",
+        "victim_industry": "Technology",
+        "country": "USA",
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "technique_name": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Conti",
+        "victim_name": "Intel",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "technique_name": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Uber",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "inferred": true,
+                "tactic_id": "TA0001",
+                "technique_name": "Phishing",
+                "technique_id": "T1566",
+                "tactic_name": "Initial Access"
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Dropbox",
+        "victim_industry": "Cloud Storage",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "technique_name": "Phishing",
+            "tactic_name": "Initial Access"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "inferred": true,
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing"
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Marriott",
+        "victim_industry": "Hospitality",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing: inferred true (common initial access method for Ryuk)",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Maze",
+        "victim_name": "eBay",
+        "victim_industry": "E-commerce",
+        "country": "USA (inferred): true",
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "Phishing (inferred): true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": "true"
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": "Sony",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "tactic_id": "TA0001",
+            "tactic_name": "Initial Access",
+            "technique_id": "T1566",
+            "technique_name": "Phishing",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": false,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": null,
+        "victim_industry": "Software",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Intel",
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": []
+    },
+    {
+        "ransomware_family": "Maze",
+        "victim_name": "Marriott",
+        "victim_industry": "Travel and Hospitality",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": "inferred: true",
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": "true"
+    },
+    {
+        "ransomware_family": "Hive",
+        "victim_name": "Equifax",
+        "victim_industry": "Financial Services",
+        "country": "USA",
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "tactic_id": "TA0001",
+            "tactic_name": "Initial Access",
+            "technique_id": "T1566",
+            "technique_name": "Phishing",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": {
+            "inferred": true
+        },
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Conti",
+        "victim_name": null,
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    },
+    {
+        "ransomware_family": "WannaCry",
+        "victim_name": "eBay",
+        "victim_industry": "E-commerce",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": "inferred: true (MS17-010)",
+        "initial_access_method": "Phishing",
+        "exfiltration_tool": null,
+        "persistence_mechanism": "Worm propagation",
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    },
+    {
+        "ransomware_family": "DarkSide",
+        "victim_name": "Facebook",
+        "victim_industry": "Technology",
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "technique_id": "T1566",
+            "tactic_id": "TA0001",
+            "inferred": true
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": {
+            "value": "true"
+        },
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": true
+            }
+        ]
+    },
+    {
+        "ransomware_family": "Ryuk",
+        "victim_name": null,
+        "victim_industry": null,
+        "country": null,
+        "attack_date": null,
+        "vulnerability_used": null,
+        "initial_access_method": {
+            "inferred": true,
+            "technique_id": "T1566",
+            "technique_name": "Phishing"
+        },
+        "exfiltration_tool": null,
+        "persistence_mechanism": null,
+        "ransom_amount": null,
+        "data_leak": null,
+        "MITRE_ATTCK_Techniques": [
+            {
+                "tactic_id": "TA0001",
+                "tactic_name": "Initial Access",
+                "technique_id": "T1566",
+                "technique_name": "Phishing",
+                "inferred": false
+            }
+        ]
+    }
+]
